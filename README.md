@@ -26,7 +26,7 @@ RUN sed -i 's/CLOUDFLARE API KEY/PUT YOUR CLOUDFLARE API KEY HERE/' /cloudflare_
 ```
 
 * To get the cloudflare zone id, simply login to cloudflare and copy the Zone ID from the Domain Summary.
-* The ip list is the pool of server IP's, you can add or remove IP's here.
+* The IP list is the pool of server IP's, you can add or remove IP's here.
 
 Once the Dockerfile has been edited you can run the following commands to build and run the container:
 
